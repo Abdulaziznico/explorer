@@ -138,7 +138,8 @@ body {
   align-items: center;
   justify-content: center;
   max-width: 800px;
-  padding: 49px 250px 67px;
+  margin: 0 auto;
+  padding: 49px 20px 67px;
   background-color: #f1f1f1;
 }
 .read-more-title {
@@ -155,7 +156,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   padding: 8px 25px 7px;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 3px;
 
   text-decoration: none;
