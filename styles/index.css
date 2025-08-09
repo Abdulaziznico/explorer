@@ -22,7 +22,7 @@ body {
   background-size: cover;
 }
 .main-bg-backdrop {
-    padding-bottom: 99px;
+  padding-bottom: 99px;
   backdrop-filter: brightness(40%);
 }
 .header {
@@ -72,13 +72,13 @@ body {
 }
 
 .post-top-content-1 {
-    background-image: url("../images/products-bg-1.jpg");
+  background-image: url("../images/products-bg-1.jpg");
 }
 .post-top-content-2 {
-    background-image: url("../images/products-bg-2.jpg");
+  background-image: url("../images/products-bg-2.jpg");
 }
 .post-top-content-3 {
-    background-image: url("../images/products-bg-3.jpg");
+  background-image: url("../images/products-bg-3.jpg");
 }
 
 .user-profile {
@@ -130,5 +130,36 @@ body {
   font-size: 17px;
   line-height: 30px;
   text-decoration: none;
-  color: #8D4FDB;
+  color: #8d4fdb;
+}
+.read-more-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  padding: 49px 250px 67px;
+  background-color: #f1f1f1;
+}
+.read-more-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 21px;
+}
+.read-more-button {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px 25px 7px;
+  color: #FFFFFF;
+  border-radius: 3px;
+
+  text-decoration: none;
+  width: 182;
+  height: 45;
+  background-color: #8d4fdb;
 }
