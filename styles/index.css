@@ -1,18 +1,54 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    line-height: 28px;
-    color: #333333;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  color: #333333;
 }
 
 .container {
-    width: 100%;
-    padding: 0px 20px;
-    margin: 0px auto;
+  width: 100%;
+  padding: 0px 20px;
+  margin: 0px auto;
+}
+/* header */
+.main-bg {
+  background-image: url("../images/main-bg.jpg");
+  background-size: cover;
+}
+.main-bg-backdrop {
+  backdrop-filter: brightness(40%);
+}
+.header {
+  padding: 60px 0px;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+  max-width: 840px;
+}
+.logo {
+  width: 176px;
+  height: 40pzx;
+}
+.header-list {
+  display: flex;
+  list-style: none;
+  column-gap: 24px;
+}
+.header-list-item-link {
+  padding: 13px 0px;
+  font-size: 11px;
+  letter-spacing: 1.3px;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
 }
