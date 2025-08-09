@@ -22,6 +22,7 @@ body {
   background-size: cover;
 }
 .main-bg-backdrop {
+    padding-bottom: 99px;
   backdrop-filter: brightness(40%);
 }
 .header {
@@ -51,4 +52,83 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
+}
+
+/* Posts */
+.posts-container {
+  max-width: 840px;
+}
+.posts {
+  list-style: none;
+}
+.post-top-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  row-gap: 20px;
+  height: 330px;
+  background-image: url("../images/products-bg-1.jpg");
+  padding: 0px 60px 40px;
+}
+
+.post-top-content-1 {
+    background-image: url("../images/products-bg-1.jpg");
+}
+.post-top-content-2 {
+    background-image: url("../images/products-bg-2.jpg");
+}
+.post-top-content-3 {
+    background-image: url("../images/products-bg-3.jpg");
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+}
+.user-profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+.user-name {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+.post-date {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.post-title {
+  width: 512px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.post-sub-content {
+  background-color: #ffffff;
+  padding: 35px 60px;
+}
+.post-description {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+.post-link {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #8D4FDB;
 }
