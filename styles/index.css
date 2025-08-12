@@ -40,7 +40,7 @@ body {
 }
 .logo {
   width: 176px;
-  height: 40pzx;
+  height: 40px;
 }
 .header-list {
   display: flex;
@@ -168,7 +168,7 @@ body {
   border-radius: 3px;
 
   text-decoration: none;
-  width: 182;
-  height: 45;
+  width: 182px;
+  height: 45px;
   background-color: #8d4fdb;
 }
