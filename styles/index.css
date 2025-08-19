@@ -149,7 +149,6 @@ body {
   box-sizing: border-box;
 }
 
-
 .read-more-title {
   font-weight: 400;
   font-size: 30px;
@@ -171,4 +170,127 @@ body {
   width: 182px;
   height: 45px;
   background-color: #8d4fdb;
+}
+
+/* Featured section */
+
+.featured-section {
+  padding: 90px 0;
+}
+.featured-section-container {
+  max-width: 980px;
+}
+.featured-section-details {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.featured-section-title {
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+}
+.featured-section-description {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 33px;
+  color: #a9afb3;
+}
+.featured-list {
+  display: flex;
+  list-style: none;
+  column-gap: 20px;
+  margin-bottom: 30px;
+}
+.featured-list-item {
+  width: 100%;
+}
+.featured-top-content {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  background-image: url("../images/card-1.jpg");
+  background-size: cover;
+  padding: 0 0 24px 24px;
+  height: 190px;
+  margin-bottom: 23px;
+}
+.featured-top-content-1 {
+  background-image: url("../images/card-1.jpg");
+}
+.featured-top-content-2 {
+  background-image: url("../images/card-2.jpg");
+}
+.featured-top-content-3 {
+  background-image: url("../images/card-3.jpg");
+}
+.featured-user-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.featured-user-pic {
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+}
+.featured-user-details {
+  color: #ffffff;
+}
+.featured-user-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.featured-date {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+}
+.featured-title {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.featured-info {
+  display: flex;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+.info-link {
+  text-decoration: none;
+  color: #8d4fdb;
+  padding-left: 8px;
+}
+
+/* Footer */
+
+.footer {
+  padding: 55px 0px 45px;
+  background: #000000;
+}
+.footer-container {
+  max-width: 980px;
+}
+.copyright {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #8B8B8B;
+}
+.main-copyright {
+  margin-bottom: 10px;
+
+}
+.copyright-link {
+  text-decoration: none;
+  color: #8D4FDB;
 }
