@@ -110,7 +110,7 @@ body {
 }
 
 .post-title {
-  width: 512px;
+  max-width: 512px;
   font-weight: 400;
   font-size: 28px;
   line-height: 35px;
@@ -284,13 +284,26 @@ body {
   font-weight: 400;
   font-size: 14px;
   text-align: center;
-  color: #8B8B8B;
+  color: #8b8b8b;
 }
 .main-copyright {
   margin-bottom: 10px;
-
 }
 .copyright-link {
   text-decoration: none;
-  color: #8D4FDB;
+  color: #8d4fdb;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 640px) {
+  .featured-list {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .post-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
 }
